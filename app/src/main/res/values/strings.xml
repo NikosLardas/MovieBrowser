@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="txt_title_movies">Popular Movies</string>
+    <string name="movie_title_label">Title:</string>
+    <string name="movie_release_date_label">Release Date:</string>
+    <string name="movie_rating_label">Rating:</string>
+    <string name="movie_description_label">Description</string>
+    <string name="movie_default_title">Movie Title not found</string>
+    <string name="movie_default_release_date">Movie Release Date not found</string>
+    <string name="movie_default_rating">Movie Rating not found</string>
+    <string name="movie_default_description">Movie Description not found</string>
+    <string name="txt_details_movie">Movie Details</string>
+    <string name="txt_title_cast">Movie Cast</string>
+    <string name="cast_actor_name_label">Actor Name</string>
+    <string name="cast_default_actor_name">Actor name not found</string>
+    <string name="cast_character_label">Character</string>
+    <string name="cast_default_character">Character not found</string>
+</resources>

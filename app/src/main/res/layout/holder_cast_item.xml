@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/cast_item_profile_img"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/basic_image"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cast_item_actor_name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EF6C00"
+            android:gravity="center"
+            android:text="@string/cast_actor_name_label"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/cast_item_actor_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="@string/cast_default_actor_name"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/cast_item_character_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EF6C00"
+            android:gravity="center"
+            android:text="@string/cast_character_label"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/cast_item_character_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="@string/cast_default_character"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>
